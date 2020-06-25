@@ -1,0 +1,14 @@
+void setup() 
+{pinMode(6, INPUT);
+ Serial.begin(38400);
+}
+
+void loop()
+{    
+   long state = digitalRead(6);
+   Serial.println(state);
+   delay(6);
+   
+   
+}
+ 
